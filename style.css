@@ -1,0 +1,53 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 50vw;
+    background-color: aquamarine;
+ }
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 100%;
+    height: 15%;
+ }
+ .chooseQr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+ }
+ .fill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+ }
+ .fillText{
+    width: auto;
+    height: 20px;
+ }
+ .choice{
+    width:auto;
+    height: 20px;
+ }
+
+ button{
+    width: 10%;
+    height: 5%;
+ }
+ #qrcode{
+    width: 20%;
+    height: 40%;
+ }
+
